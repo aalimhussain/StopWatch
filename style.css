@@ -1,0 +1,43 @@
+.container{ 
+    color: black;
+   margin: 10% auto;
+    height: 400px;
+    width: 400px;
+border-radius: 50%;
+position: relative;
+}
+h1{
+    text-align: center;
+    color: rgb(21, 81, 209);
+}
+#display{position: absolute;
+    width: inherit;
+    height: auto;
+    top: 30%;
+    font-size: 72px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+.buttons{border: none;
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    font-size: 72px;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+cursor: pointer;
+}
+ .buttons button:hover {background-color: rgb(13, 1, 119);
+    color: rgb(115, 193, 245);
+    font-weight: bold;
+}
+footer {
+    color: rgb(21, 81, 209);
+    font-size: 0.95em;
+    text-align: center;
+  }
